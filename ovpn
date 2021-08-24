@@ -3,7 +3,7 @@ check(){
       vpn=$(test -f "/data/data/com.termux/files/home/vpn2/ovpn" && echo 1)
     case $vpn in
     1) clear && sleep 2 && echo "CHECANDO SE VOCÊ TEM ROOT..." && sleep 4 ;;
-    *) clear && echo "ESSE SCRIPT ESTÁ DESATUALIZADO" ; echo "VOCÊ PRECISA ATUALIZAR O SCRIPT!" ; echo "PARA ATUALIZAR PROCURE NO TELEGRAM:" ; echo ; echo "@metodosfr33" ; echo "@EhisOpeNer" ; echo "@TROPA_REDBLACK" ; sleep 2 ; check ;;
+    *) clear && echo "ESSE SCRIPT ESTÁ DESATUALIZADO" ; echo "VOCÊ PRECISA ATUALIZAR O SCRIPT!" ; echo "PARA ATUALIZAR PROCURE NO TELEGRAM:" ; echo ; echo "@EnoVinicius"" ; sleep 2 ; check ;;
      esac
 }
 check
