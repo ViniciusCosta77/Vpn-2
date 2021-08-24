@@ -20,8 +20,7 @@ Menu() {
     echo "            [ 0 ] - Voltar"
    echo "         ==================================="
    echo
-    echo "@alpacinoo007"
-    echo "@luanw04"
+    echo "EnoVinicius"
     echo
     echo "Noob Sofre"
     read App
@@ -50,7 +49,7 @@ check1() {
     pervpn=$(test -f "$HOME/PerVPN2" && echo 1)
     case $pervpn in
     1) bash PerVPN2;;
-    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
+    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn-2/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
     esac
 }
 check1
@@ -62,7 +61,7 @@ check1() {
     pervpn=$(test -f "$HOME/PerVPN2" && echo 1)
     case $pervpn in
     1) bash PerVPN2;;
-    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
+    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn-2/main/PerVPN2 && chmod +x PerVPN2 && cp PerVPN2 $PREFIX/bin/ && ./PerVPN2 ; check1;;
     esac
 }
 check1
@@ -70,7 +69,7 @@ check1
 
 connect(){
 clear
-su -c am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear $App && $A4 && sleep 4 && $A3
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear $App && $A4 && sleep 4 && $A3
 check2() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
