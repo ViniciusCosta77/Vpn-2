@@ -32,8 +32,7 @@ echo "    ================================"
     echo "             [ 22 ] - Applique-se"
     echo "             [ 23 ] - Rio Educa Em Casa"  
    echo "       ================================"
-    echo "@luanw04"
-    echo "@alpacinoo007"
+    echo "EnoVinicius"
     echo 
     echo "ESCOLHA UMA OPÇÃO:"
     read App
@@ -68,7 +67,7 @@ echo "    ================================"
 
 connect () {
 clear
-am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [--ez delete_app_data {true}] && clear && sleep 8 && echo "LIMPE OS DADOS E ENTRE NO APP"
+am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [--ez delete_app_data {true}] && clear && sleep 8 && echo "LIMPE OS DADOS E ENTRE NO APP"
 check1() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
