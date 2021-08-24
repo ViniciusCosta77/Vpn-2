@@ -19,8 +19,7 @@ Menu() {
     echo "            [ 7 ] - Todos os apps"
    echo "         ==================================="
    echo
-    echo "@alpacinoo007"
-    echo "@luanw04"
+    echo "EnoVinicius"
     echo
     echo "Noob Sofre"
     read App
@@ -57,7 +56,7 @@ check3() {
      esac
 }
 check3
-su -c am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name tv.ip.cmspi [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.cmspi && su -c am start -n tv.ip.cmspi/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.cmspi/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.cmspi/tv.ip.my.activities.MyVideoActivity && sleep 40
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name tv.ip.cmspi [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.cmspi && su -c am start -n tv.ip.cmspi/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.cmspi/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.cmspi/tv.ip.my.activities.MyVideoActivity && sleep 40
 check2() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
@@ -74,7 +73,7 @@ check3() {
      esac
 }
 check3
-su -c am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name tv.ip.aulapr [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.aulapr && su -c am start -n tv.ip.aulapr/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.aulapr/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.aulapr/tv.ip.my.activities.VideoActivity2 && sleep 40
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name tv.ip.aulapr [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.aulapr && su -c am start -n tv.ip.aulapr/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.aulapr/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.aulapr/tv.ip.my.activities.VideoActivity2 && sleep 40
 check2() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
@@ -91,7 +90,7 @@ check3() {
      esac
 }
 check3
-su -c am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name tv.ip.conectaai [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.conectaai && su -c am start -n tv.ip.conectaai/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.conectaai/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.conectaai/tv.ip.my.activities.MyVideoActivity && sleep 40
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name tv.ip.conectaai [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.conectaai && su -c am start -n tv.ip.conectaai/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.conectaai/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.conectaai/tv.ip.my.activities.MyVideoActivity && sleep 40
 check2() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
@@ -108,7 +107,7 @@ check3() {
      esac
 }
 check3
-su -c am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name tv.ip.appliquese [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.appliquese && su -c am start -n tv.ip.appliquese/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.appliquese/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.appliquese/tv.ip.my.activities.VideoActivity2 && sleep 40
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name tv.ip.appliquese [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.appliquese && su -c am start -n tv.ip.appliquese/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.appliquese/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.appliquese/tv.ip.my.activities.VideoActivity2 && sleep 40
 check2() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
@@ -125,7 +124,7 @@ check3() {
      esac
 }
 check3
-su -c am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name tv.ip.rioeduca [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.rioeduca && su -c am start -n tv.ip.rioeduca/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.rioeduca/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.rioeduca/tv.ip.my.activities.VideoActivity2 && sleep 40 
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name tv.ip.rioeduca [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear tv.ip.rioeduca && su -c am start -n tv.ip.rioeduca/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n tv.ip.rioeduca/tv.ip.my.controller.MyMainService && su -c am start -n tv.ip.rioeduca/tv.ip.my.activities.VideoActivity2 && sleep 40 
 check2() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
@@ -151,7 +150,7 @@ check1() {
     pervpn=$(test -f "$HOME/PerVPN" && echo 1)
     case $pervpn in
     1) bash PerVPN;;
-    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN && chmod +x PerVPN && cp PerVPN $PREFIX/bin/ && ./PerVPN ; check1;;
+    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn-2/main/PerVPN && chmod +x PerVPN && cp PerVPN $PREFIX/bin/ && ./PerVPN ; check1;;
     esac
 }
 check1
@@ -159,7 +158,7 @@ check1
 
 connect () {
 clear
-su -c am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear $App && su -c am start -n $App/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n $App/tv.ip.my.controller.MyMainService && $A3
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 18 && clear && su -c pm clear $App && su -c am start -n $App/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n $App/tv.ip.my.controller.MyMainService && $A3
 check2() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
