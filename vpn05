@@ -18,7 +18,8 @@ Menu() {
     echo "            [ 6 ] - Todos os apps"
    echo "         ==================================="
    echo
-    echo "@EnoVinicius"
+    echo "@alpacinoo007"
+    echo "@luanw04"
     echo
     echo "Noob Sofre"
     read App
