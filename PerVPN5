@@ -17,8 +17,7 @@ Menu() {
     echo "             [ 5 ] - Rio Educa Em Casa"  
    echo "         ==================================="
    echo
-    echo "@alpacinoo007"
-    echo "@luanw04"
+    echo "EnoVinicius"
     echo
     echo "Noob Sofre"
     read App
