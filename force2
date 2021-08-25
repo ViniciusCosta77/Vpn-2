@@ -20,8 +20,7 @@ Menu() {
     echo "            [ 8 ] - Change DNS"
    echo "         ==================================="
    echo
-    echo "@alpacinoo007"
-    echo "@luanw04"
+    echo "EnoVinicius"
     echo
     echo "Noob Sofre"
     read App
@@ -46,7 +45,7 @@ check1() {
     pervpn=$(test -f "$HOME/PerVPN" && echo 1)
     case $pervpn in
     1) bash PerVPN;;
-    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/PerVPN && chmod +x PerVPN && cp PerVPN $PREFIX/bin/ && ./PerVPN ; check1;;
+    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn-2/main/PerVPN && chmod +x PerVPN && cp PerVPN $PREFIX/bin/ && ./PerVPN ; check1;;
     esac
 }
 check1
@@ -58,7 +57,7 @@ check4() {
     vpnloop=$(test -f "$HOME/vpn04" && echo 1)
     case $vpnloop in
     1) bash vpn04;;
-    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/vpn04 && chmod +x vpn04 && cp vpn04 $PREFIX/bin/ && ./vpn04 ; check4;;
+    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn-2/main/vpn04 && chmod +x vpn04 && cp vpn04 $PREFIX/bin/ && ./vpn04 ; check4;;
     esac
 }
 check4
@@ -69,7 +68,7 @@ check1() {
     pervpn=$(test -f "$HOME/changedns2" && echo 1)
     case $pervpn in
     1) bash changedns2;;
-    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/luanwillianzh/vpn/main/changedns2 && chmod +x changedns2 && cp changedns2 $PREFIX/bin/ && ./changedns2 ; check1;;
+    *) clear && echo "NECESSARIO TER INTERNET NA 1°" ; echo "VEZ PARA BAIXAR O RECURSO" ; sleep 4 && curl -sO https://raw.githubusercontent.com/ViniciusCosta77/Vpn-2/main/changedns2 && chmod +x changedns2 && cp changedns2 $PREFIX/bin/ && ./changedns2 ; check1;;
     esac
 }
 check1
@@ -77,7 +76,7 @@ check1
 
 connect () {
 clear
-su -c am broadcast -p com.applisto.appcloner -a com.applisto.appcloner.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 12 && clear && su -c pm clear $App && su -c am start -n $App/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n $App/tv.ip.my.controller.MyMainService && $A3
+su -c am broadcast -p com.applisto.appcloneR -a com.applisto.appcloneR.api.action.NEW_IDENTITY --es package_name $App [--ez clear_cache {true}] [--ez delete_app_data {true}] && sleep 12 && clear && su -c pm clear $App && su -c am start -n $App/tv.ip.my.activities.PermissionActivity && sleep 1 && su -c am startservice -n $App/tv.ip.my.controller.MyMainService && $A3
 check2() {
     vpn=$(ifconfig | grep -c tun0)
     case $vpn in
